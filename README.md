@@ -10,4 +10,4 @@ It is a work-in-progress as of June 17, 2014. I hope to release a fully complete
 
 Currently IN DEVELOPMENT is the Dark Roast version with a Light Roast to follow. Here's a preview:
 
-![Coffee Dark Roast Preview](https://raw.github.com/Toddses/coffee/screenshot.png)
+![Coffee Dark Roast Preview](https://raw.github.com/Toddses/coffee/master/screenshot.png)
