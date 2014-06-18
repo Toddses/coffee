@@ -7,7 +7,7 @@
 ###################################################
 ---
 name: Coffee Dark Roast Sublime Theme
-comment: Original Textmate / Sublime Text earth tone theme with dedicated syntax highlighting for YAML.
+comment: Original Textmate / Sublime Text earth tone theme with dedicated syntax highlighting for YAML, JSON.
 author: Todd Miller
 semanticClass: theme.coffee.darkroast
 uuid: 48e51dc9-e4a4-4563-b9d9-a21fd18c4c7f
@@ -184,4 +184,20 @@ settings:
       scope: entity.name.tag.yaml
       settings:
         fontStyle: none
+
+  # JSON scopes
+    - name: JSON Punctuation
+      scope: punctuation.definition.string.begin.json - meta.structure.dictionary.value.json, punctuation.definition.string.end.json - meta.structure.dictionary.value.json
+      settings:
+        foreground: '#FFF2CF'
+
+    - name: JSON String
+      scope: meta.structure.dictionary.value.json string.quoted.double.json
+      settings:
+        foreground: '#DC9237'
+
+    - name: JSON Structure
+      scope: meta.structure.dictionary.json string.quoted.double.json
+      settings:
+        foreground: '#8B3C23'
 ...
