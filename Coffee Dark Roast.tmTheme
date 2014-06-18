@@ -33,6 +33,8 @@
 				<string>#FFF2CF</string>
 				<key>foreground</key>
 				<string>#FFF2CF</string>
+				<key>invisibles</key>
+				<string>#000000</string>
 				<key>lineHighlight</key>
 				<string>#4F4117</string>
 				<key>selection</key>

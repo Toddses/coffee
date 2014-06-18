@@ -18,6 +18,7 @@ settings:
         background: '#0F0700'
         foreground: '#FFF2CF'
         caret: '#FFF2CF'
+        invisibles: '#000000'
         selection: '#796D47'
         selectionBorder: '#BCB291'
         lineHighlight: '#4F4117'

@@ -115,7 +115,7 @@
     {
         "class": "tab_close_button",
         "parents": [{"class": "tab_control", "attributes": ["dirty"]}],
-        "layer0.texture": "Theme - Coffee/Flatland/tab-dirty.png",
+        "layer0.texture": "Theme - Coffee/Dark Roast/tab-dirty.png",
         "layer0.opacity": 1.0,
         "layer1.opacity": 0.0
     },
@@ -152,24 +152,24 @@
         "layer0.opacity": 1.0,
         "layer1.opacity": 0.0
     },
-    // SQUARE TABS
-    {
-        "class": "tabset_control",
-        "settings": ["flatland_square_tabs"],
-        "layer0.texture": "Theme - Coffee/Flatland/square/tabset-background.png",
-        "content_margin": [0, 0, 0, 0]
+    // SQUARE TABS - Not used in Coffee
+    //{
+        //"class": "tabset_control",
+        //"settings": ["flatland_square_tabs"],
+        //"layer0.texture": "Theme - Coffee/Flatland/square/tabset-background.png",
+        //"content_margin": [0, 0, 0, 0]
         // "tab_overlap": 5
-    },
-    {
-        "class": "tab_control",
-        "settings": ["flatland_square_tabs"],
+    //},
+    //{
+        //"class": "tab_control",
+        //"settings": ["flatland_square_tabs"],
         // Inactive tab settings
-        "layer0.texture": "Theme - Coffee/Flatland/square/tab-inactive.png",
+        //"layer0.texture": "Theme - Coffee/Flatland/square/tab-inactive.png",
         // Active tab setting
-        "layer1.texture": "Theme - Coffee/Flatland/square/tab-active.png",
+        //"layer1.texture": "Theme - Coffee/Flatland/square/tab-active.png",
         // Hover tab setting
-        "layer2.texture": "Theme - Coffee/Flatland/square/tab-hover.png"
-    },
+        //"layer2.texture": "Theme - Coffee/Flatland/square/tab-hover.png"
+    //},
 
 //
 // FOLD BUTTONS
@@ -343,7 +343,7 @@
 
     {
         "class": "minimap_control",
-        "viewport_color": [61, 142, 243, 20]
+        "viewport_color": [7, 76, 118, 50]
     },
 
 //
