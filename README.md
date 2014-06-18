@@ -2,7 +2,7 @@
 
 ## About
 
-Coffee is a minimalist theme and color scheme/syntax highlighting with an earthy flair for Sublime Text 2 & 3 /  Textmate. It is largely based on the wonderful theme [Flatland](https://github.com/thinkpixellab/flatland), which is in turn based on [Soda](https://github.com/buymeasoda/soda-theme). Two great places to start if you're developing your own themes.
+Coffee is a minimalist theme and color scheme/syntax highlighting with an earthy flair for Sublime Text 2 & 3 /  Textmate. It is largely based on the excellent theme [Flatland](https://github.com/thinkpixellab/flatland), which is in turn based on [Soda](https://github.com/buymeasoda/soda-theme). Two great places to start if you're developing your own themes.
 
 It is a work-in-progress as of June 17, 2014. I hope to release a fully completed version very soon.
 
