@@ -11,7 +11,7 @@
     // Tab set
     {
         "class": "tabset_control",
-        "layer0.texture": "Theme - Coffee/Flatland/tabset-background.png",
+        "layer0.texture": "Theme - Coffee/Dark Roast/tabset-background.png",
         "layer0.inner_margin": [10, 0],
         "layer0.opacity": 1.0,
         "content_margin": [0, 4, 0, 0],
@@ -33,15 +33,15 @@
         "max_margin_trim": 0,
         "hit_test_level": 0.5,
         // Inactive tab settings
-        "layer0.texture": "Theme - Coffee/Flatland/tab-inactive.png",
+        "layer0.texture": "Theme - Coffee/Dark Roast/tab-inactive.png",
         "layer0.inner_margin": [20, 4],
         "layer0.opacity": 1.0,
         // Active tab setting
-        "layer1.texture": "Theme - Coffee/Flatland/tab-active.png",
+        "layer1.texture": "Theme - Coffee/Dark Roast/tab-active.png",
         "layer1.inner_margin": [20, 4],
         "layer1.opacity": 0.0,
         // Hover tab setting
-        "layer2.texture": "Theme - Coffee/Flatland/tab-hover.png",
+        "layer2.texture": "Theme - Coffee/Dark Roast/tab-hover.png",
         "layer2.inner_margin": [20, 4],
         "layer2.opacity": 0.0
     },
@@ -69,19 +69,19 @@
     {
         "class": "tab_label",
         "fade": false,
-        "fg": [144, 146, 147],
+        "fg": [164, 157, 136],
         "font.bold" : false,
         "font.size" : 11
     },
     {
         "class": "tab_label",
         "parents": [{"class": "tab_control", "attributes": ["hover"]}],
-        "fg": [255, 255, 255]
+        "fg": [255, 242, 207], 
     },
     {
         "class": "tab_label",
         "parents": [{"class": "tab_control", "attributes": ["selected"]}],
-        "fg": [255, 255, 255],  // active tab text
+        "fg": [255, 242, 207],
         "shadow_color": [75, 59, 83],
         "shadow_offset": [0, 0]
 
@@ -91,11 +91,11 @@
         "class": "tab_close_button",
         "content_margin": [0, 0],
         // Tab close default settings
-        "layer0.texture": "Theme - Coffee/Flatland/tab-close.png",
+        "layer0.texture": "Theme - Coffee/Dark Roast/tab-close.png",
         "layer0.opacity": 1.0,
         "layer0.inner_margin": [0, 0],
         // Tab close hover settings
-        "layer1.texture": "Theme - Coffee/Flatland/tab-close-hover.png",
+        "layer1.texture": "Theme - Coffee/Dark Roast/tab-close-hover.png",
         "layer1.opacity": 0.0
     },
     {
@@ -211,7 +211,7 @@
     // Standard vertical scroll bar
     {
         "class": "scroll_bar_control",
-        "layer0.texture": "Theme - Coffee/Flatland/standard-scrollbar-vertical.png",
+        "layer0.texture": "Theme - Coffee/Dark Roast/standard-scrollbar-vertical.png",
         "layer0.opacity": 1.0,
         "layer0.inner_margin": [0, 6],
         "blur": false
@@ -220,7 +220,7 @@
     {
         "class": "scroll_bar_control",
         "attributes": ["horizontal"],
-        "layer0.texture": "Theme - Coffee/Flatland/standard-scrollbar-horizontal.png",
+        "layer0.texture": "Theme - Coffee/Dark Roast/standard-scrollbar-horizontal.png",
         "layer0.opacity": 1.0,
         "layer0.inner_margin": [6, 0],
         "blur": false
@@ -228,14 +228,14 @@
     // Standard scroll bar corner
     {
         "class": "scroll_corner_control",
-        "layer0.texture": "Theme - Coffee/Flatland/standard-scrollbar-corner.png",
+        "layer0.texture": "Theme - Coffee/Dark Roast/standard-scrollbar-corner.png",
         "layer0.opacity": 1.0,
         "layer0.inner_margin": [1, 1]
     },
     // Standard vertical scroll puck
     {
         "class": "puck_control",
-        "layer0.texture": "Theme - Coffee/Flatland/standard-puck-vertical.png",
+        "layer0.texture": "Theme - Coffee/Dark Roast/standard-puck-vertical.png",
         "layer0.opacity": 1.0,
         "layer0.inner_margin": [0, 10],
         "content_margin": [8, 12],
@@ -245,7 +245,7 @@
     {
         "class": "puck_control",
         "attributes": ["horizontal"],
-        "layer0.texture": "Theme - Coffee/Flatland/standard-puck-horizontal.png",
+        "layer0.texture": "Theme - Coffee/Dark Roast/standard-puck-horizontal.png",
         "layer0.opacity": 1.0,
         "layer0.inner_margin": [10, 0],
         "content_margin": [12, 8],
@@ -377,7 +377,7 @@
     {
         "class": "label_control",
         "parents": [{"class": "status_bar"}],
-        "color": [148, 149, 151],
+        "color": [255, 242, 207],
         "shadow_color": [200, 200, 200],
         "shadow_offset": [0, 0],
         "font.bold" : false
@@ -407,7 +407,7 @@
     // Status bar container
     {
         "class": "status_bar",
-        "layer0.texture": "Theme - Coffee/Flatland/status-bar-background.png",
+        "layer0.texture": "Theme - Coffee/Dark Roast/status-bar-background.png",
         "layer0.opacity": 1.0,
         "layer0.inner_margin": [2, 2],
         "content_margin": [14, 4, 4, 4]
@@ -572,14 +572,14 @@
     {
         "class": "disclosure_button_control",
         "content_margin": [0, 6, 18, 7],
-        "layer0.texture": "Theme - Coffee/Dark Roast/group-closed.png",
+        "layer0.texture": "Theme - Coffee/Dark Roast/group-closed1.png",
         "layer0.opacity": 1.0,
         "layer0.inner_margin": 0
     },
     {
         "class": "disclosure_button_control",
         "parents": [{"class": "tree_row", "attributes": ["hover"]}],
-        "layer0.texture": "Theme - Coffee/Dark Roast/group-closed.png"
+        "layer0.texture": "Theme - Coffee/Dark Roast/group-closed1.png"
     },
     {
         "class": "disclosure_button_control",
@@ -590,13 +590,13 @@
     {
         "class": "disclosure_button_control",
         "attributes": ["expanded"],
-        "layer0.texture": "Theme - Coffee/Dark Roast/group-open.png"
+        "layer0.texture": "Theme - Coffee/Dark Roast/group-open1.png"
     },
     {
         "class": "disclosure_button_control",
         "attributes": ["expanded"],
         "parents": [{"class": "tree_row", "attributes": ["hover"]}],
-        "layer0.texture": "Theme - Coffee/Dark Roast/group-open.png"
+        "layer0.texture": "Theme - Coffee/Dark Roast/group-open1.png"
     },
     {
         "class": "disclosure_button_control",
