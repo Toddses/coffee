@@ -23,7 +23,7 @@ The Coffee Theme is a sublime package and is designed to work with [Sublime Text
 Coffee can be easily installed using the excellent [Sublime Package Control](https://sublime.wbond.net/).
 
 * Open `Package Control: Install Package` from the Sublime quick menu (Command-Shift-P).
-* Select the 'Theme - Coffee' option to install Coffee.
+* Select the "Theme - Coffee" option to install Coffee.
 
 ### Git Installation
 
@@ -33,7 +33,7 @@ You can locate your Sublime Text `Packages` directory by using the menu item `Pr
 
 While inside the `Packages` directory, clone the theme repository using the command below:
 
-git clone https://github.com/Toddses/coffee/ "Theme - Coffee"
+    git clone https://github.com/Toddses/coffee/ "Theme - Coffee"
 
 ### Manual Installation
 
@@ -46,10 +46,10 @@ git clone https://github.com/Toddses/coffee/ "Theme - Coffee"
 
 Activate the theme by modifying your user preferences to include the following:
 
-{
-  "theme": "Coffee Dark Roast.sublime-theme",
-  "color_scheme": "Packages/Theme - Coffee/Coffee Dark Roast.tmTheme"
-}
+    {
+        "theme": "Coffee Dark Roast.sublime-theme",
+        "color_scheme": "Packages/Theme - Coffee/Coffee Dark Roast.tmTheme"
+    }
 
 If you need help locating your user preferences file, you can find it selecting `Preferences > Settings - User`.
 
