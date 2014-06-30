@@ -1,2 +1,5 @@
 # ignore the temp assets
 Flatland/
+
+# ignore base YAML files
+Coffee Dark Roast.YAML-tmTheme
