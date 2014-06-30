@@ -13,13 +13,13 @@
     {
         "class": "tabset_control",
         "layer0.texture": "Theme - Coffee/Dark Roast/tabset-background.png",
-        "layer0.inner_margin": [10, 0],
+        "layer0.inner_margin": [10, 0, 10, 8],
         "layer0.opacity": 1.0,
-        "content_margin": [0, 4, 0, 0],
+        "content_margin": [0, 4, 0, -1],
         "tab_overlap": 6,
         "tab_width": 160,
         "tab_min_width": 48,
-        "tab_height": 34,
+        "tab_height": 28,
         "mouse_wheel_switch": false
     },
     {
@@ -50,7 +50,7 @@
         // Tab close state
         "class": "tab_control",
         "settings": ["show_tab_close_buttons"],
-        "content_margin": [12, -5, 8, 4]
+        "content_margin": [12, 0, 8, 7]
     },
     {
         // Hover tab state
@@ -161,7 +161,7 @@
     // Tab dropdown
     {
         "class": "show_tabs_dropdown_button",
-        "content_margin": [24, 34, 0, 0],
+        "content_margin": [24, 28, 0, 0],
         "layer0.texture": "Theme - Coffee/Dark Roast/tabset-list.png",
         "layer0.opacity": 1.0,
         "layer0.inner_margin": 0
@@ -174,7 +174,7 @@
     // Tab scroll left
     {
         "class": "scroll_tabs_left_button",
-        "content_margin": [9, 7, 8, 6],
+        "content_margin": [17, 28, 0, 0],
         "layer0.texture": "Theme - Coffee/Dark Roast/tabset-left.png",
         "layer0.opacity": 1.0,
         "layer0.inner_margin": 0
@@ -187,7 +187,7 @@
     // Tab scroll right
     {
         "class": "scroll_tabs_right_button",
-        "content_margin": [9, 7, 8, 6],
+        "content_margin": [17, 28, 0, 0],
         "layer0.texture": "Theme - Coffee/Dark Roast/tabset-right.png",
         "layer0.opacity": 1.0,
         "layer0.inner_margin": 0
