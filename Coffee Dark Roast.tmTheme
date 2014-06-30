@@ -345,21 +345,10 @@
 			<string>constant.numeric.line-number.find-in-files - match</string>
 			<key>settings</key>
 			<dict>
+				<key>fontStyle</key>
+				<string>italic</string>
 				<key>foreground</key>
 				<string>#02314D</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>Find in Files Filename</string>
-			<key>scope</key>
-			<string>entity.name.filename.find-in-files</string>
-			<key>settings</key>
-			<dict>
-				<key>background</key>
-				<string>#796D47</string>
-				<key>foreground</key>
-				<string>#FFF2CF</string>
 			</dict>
 		</dict>
 		<dict>

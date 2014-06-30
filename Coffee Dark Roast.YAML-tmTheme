@@ -171,12 +171,7 @@ settings:
       scope: constant.numeric.line-number.find-in-files - match
       settings:
         foreground: '#02314D'
-
-    - name: Find in Files Filename
-      scope: entity.name.filename.find-in-files
-      settings:
-        foreground: '#FFF2CF'
-        background: '#796D47'
+        fontStyle: italic
 
 # Language specific scope coloring
 

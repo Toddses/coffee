@@ -152,24 +152,50 @@
         "layer0.opacity": 1.0,
         "layer1.opacity": 0.0
     },
-    // SQUARE TABS - Not used in Coffee
-    //{
-        //"class": "tabset_control",
-        //"settings": ["flatland_square_tabs"],
-        //"layer0.texture": "Theme - Coffee/Flatland/square/tabset-background.png",
-        //"content_margin": [0, 0, 0, 0]
-        // "tab_overlap": 5
-    //},
-    //{
-        //"class": "tab_control",
-        //"settings": ["flatland_square_tabs"],
-        // Inactive tab settings
-        //"layer0.texture": "Theme - Coffee/Flatland/square/tab-inactive.png",
-        // Active tab setting
-        //"layer1.texture": "Theme - Coffee/Flatland/square/tab-active.png",
-        // Hover tab setting
-        //"layer2.texture": "Theme - Coffee/Flatland/square/tab-hover.png"
-    //},
+
+//
+// TAB SCROLLING
+//
+
+    // Tab dropdown
+    {
+        "class": "show_tabs_dropdown_button",
+        "content_margin": [24, 34, 0, 0],
+        "layer0.texture": "Theme - Coffee/Dark Roast/tabset-list.png",
+        "layer0.opacity": 1.0,
+        "layer0.inner_margin": 0
+    },
+    {
+        "class": "show_tabs_dropdown_button",
+        "attributes": ["hover"],
+        "layer0.texture": "Theme - Coffee/Dark Roast/tabset-list-hover.png"
+    },
+    // Tab scroll left
+    {
+        "class": "scroll_tabs_left_button",
+        "content_margin": [9, 7, 8, 6],
+        "layer0.texture": "Theme - Coffee/Dark Roast/tabset-left.png",
+        "layer0.opacity": 1.0,
+        "layer0.inner_margin": 0
+    },
+    {
+        "class": "scroll_tabs_left_button",
+        "attributes": ["hover"],
+        "layer0.texture": "Theme - Coffee/Dark Roast/tabset-left-hover.png"
+    },
+    // Tab scroll right
+    {
+        "class": "scroll_tabs_right_button",
+        "content_margin": [9, 7, 8, 6],
+        "layer0.texture": "Theme - Coffee/Dark Roast/tabset-right.png",
+        "layer0.opacity": 1.0,
+        "layer0.inner_margin": 0
+    },
+    {
+        "class": "scroll_tabs_right_button",
+        "attributes": ["hover"],
+        "layer0.texture": "Theme - Coffee/Dark Roast/tabset-right-hover.png"
+    },
 
 //
 // FOLD BUTTONS
@@ -177,10 +203,10 @@
 
     {
         "class": "fold_button_control",
-        "layer0.texture": "Theme - Coffee/Flatland/fold-closed.png",
+        "layer0.texture": "Theme - Coffee/Dark Roast/fold-closed.png",
         "layer0.opacity": 1.0,
         "layer0.inner_margin": 0,
-        "layer1.texture": "Theme - Coffee/Flatland/fold-closed-pressed.png",
+        "layer1.texture": "Theme - Coffee/Dark Roast/fold-closed-hover.png",
         "layer1.opacity": 0.0,
         "layer1.inner_margin": 0,
         "content_margin": [9, 7, 8, 6]
@@ -200,8 +226,8 @@
     {
         "class": "fold_button_control",
         "attributes": ["expanded"],
-        "layer0.texture": "Theme - Coffee/Flatland/fold-open.png",
-        "layer1.texture": "Theme - Coffee/Flatland/fold-open-pressed.png"
+        "layer0.texture": "Theme - Coffee/Dark Roast/fold-open.png",
+        "layer1.texture": "Theme - Coffee/Dark Roast/fold-open-hover.png"
     },
 
 //
@@ -271,7 +297,7 @@
     {
         "class": "scroll_bar_control",
         "settings": ["overlay_scroll_bars"],
-        "layer0.texture": "Theme - Coffee/Flatland/overlay-scrollbar-vertical.png",
+        "layer0.texture": "Theme - Coffee/Dark Roast/overlay-scrollbar-vertical.png",
         "layer0.inner_margin": [0, 5],
         "blur": true
     },
@@ -280,7 +306,7 @@
         "class": "scroll_bar_control",
         "settings": ["overlay_scroll_bars"],
         "attributes": ["horizontal"],
-        "layer0.texture": "Theme - Coffee/Flatland/overlay-scrollbar-horizontal.png",
+        "layer0.texture": "Theme - Coffee/Dark Roast/overlay-scrollbar-horizontal.png",
         "layer0.inner_margin": [5, 0],
         "blur": true
     },
@@ -288,7 +314,7 @@
     {
         "class": "puck_control",
         "settings": ["overlay_scroll_bars"],
-        "layer0.texture": "Theme - Coffee/Flatland/overlay-puck-vertical.png",
+        "layer0.texture": "Theme - Coffee/Dark Roast/overlay-puck-vertical.png",
         "layer0.inner_margin": [0, 5],
         "content_margin": [5, 20],
         "blur": true
@@ -298,7 +324,7 @@
         "class": "puck_control",
         "settings": ["overlay_scroll_bars"],
         "attributes": ["horizontal"],
-        "layer0.texture": "Theme - Coffee/Flatland/overlay-puck-horizontal.png",
+        "layer0.texture": "Theme - Coffee/Dark Roast/overlay-puck-horizontal.png",
         "layer0.inner_margin": [5, 0],
         "content_margin": [20, 5],
         "blur": true
@@ -308,14 +334,14 @@
         "class": "puck_control",
         "settings": ["overlay_scroll_bars"],
         "attributes": ["dark"],
-        "layer0.texture": "Theme - Coffee/Flatland/overlay-dark-puck-vertical.png"
+        "layer0.texture": "Theme - Coffee/Dark Roast/overlay-dark-puck-vertical.png"
     },
     // Overlay light horizontal puck (for dark content)
     {
         "class": "puck_control",
         "settings": ["overlay_scroll_bars"],
         "attributes": ["horizontal", "dark"],
-        "layer0.texture": "Theme - Coffee/Flatland/overlay-dark-puck-horizontal.png"
+        "layer0.texture": "Theme - Coffee/Dark Roast/overlay-dark-puck-horizontal.png"
     },
 
 //
@@ -324,7 +350,7 @@
 
     {
         "class": "sheet_container_control",
-        "layer0.tint": [38,41,44],
+        "layer0.tint": [0, 0, 255],
         "layer0.opacity": 1.0
     },
 
@@ -334,7 +360,7 @@
     {
         "class": "grid_layout_control",
         "border_size": 1,
-        "border_color": [70, 70, 70]
+        "border_color": [91, 84, 63]
     },
 
 //
@@ -353,33 +379,25 @@
     // General labels
     {
         "class": "label_control",
-        "color": [201, 202, 203],
-        "shadow_color": [201, 202, 203],
-        "shadow_offset": [0, 0],
+        "color": [164, 157, 136],
         "font.bold" : true,
         "font.size" : 11
     },
     // Text field labels
     {
         "class": "label_control",
-        "parents": [{"class": "panel_control"}],
-        "shadow_color": [201, 202, 203],
-        "shadow_offset": [0, 0]
+        "parents": [{"class": "panel_control"}]
     },
     // Button labels
     {
         "class": "label_control",
-        "parents": [{"class": "button_control"}],
-        "shadow_color": [201, 202, 203],
-        "shadow_offset": [0, 0]
+        "parents": [{"class": "button_control"}]
     },
     // Status bar label
     {
         "class": "label_control",
         "parents": [{"class": "status_bar"}],
-        "color": [255, 242, 207],
-        "shadow_color": [200, 200, 200],
-        "shadow_offset": [0, 0],
+        "color": [164, 157, 136],
         "font.bold" : false
     },
 
@@ -390,7 +408,7 @@
     // Tooltip container
     {
         "class": "tool_tip_control",
-        "layer0.texture": "Theme - Coffee/Flatland/tooltip.png",
+        "layer0.texture": "Theme - Coffee/Dark Roast/tooltip.png",
         "layer0.inner_margin": [1, 1],
         "layer0.opacity": 0.95,
         "content_margin": [3, 3]
@@ -398,7 +416,7 @@
     // Tooltip content
     {
         "class": "tool_tip_label_control",
-        "color": [0, 0, 0]
+        "color": [59, 49, 20]
     },
 
 //
@@ -424,11 +442,10 @@
     // Sidebar container
     {
         "class": "sidebar_container",
-        "layer0.tint": [15, 10, 0],
+        "layer0.texture": "Theme - Coffee/Dark Roast/sidebar-background.png",
         "layer0.opacity": 1.0,
-        "layer0.draw_center": false,
-        "layer0.inner_margin": [0, 0, 0, 0],
-        "content_margin": [0, 0, 0, 0]
+        "layer0.inner_margin": [1, 1, 2, 1],
+        "content_margin": [0, 0, 1, 0]
     },
     // Sidebar tree
     {
@@ -437,33 +454,31 @@
         "indent": 14,
         "indent_offset": 20,
         "indent_top_level": false,
-        "layer0.tint": [15, 10, 0],
-        "layer0.opacity": 1.0,
         "dark_content": false
     },
     {
         "class": "sidebar_tree",
-        "settings": ["flatland_sidebar_tree_xsmall"],
+        "settings": ["coffee_sidebar_tree_xsmall"],
         "row_padding": [8, 0]
     },
     {
         "class": "sidebar_tree",
-        "settings": ["flatland_sidebar_tree_small"],
+        "settings": ["coffee_sidebar_tree_small"],
         "row_padding": [8, 2]
     },
     {
         "class": "sidebar_tree",
-        "settings": ["flatland_sidebar_tree_medium"],
+        "settings": ["coffee_sidebar_tree_medium"],
         "row_padding": [8, 3]
     },
     {
         "class": "sidebar_tree",
-        "settings": ["flatland_sidebar_tree_large"],
+        "settings": ["coffee_sidebar_tree_large"],
         "row_padding": [8, 6]
     },
     {
         "class": "sidebar_tree",
-        "settings": ["flatland_sidebar_tree_xlarge"],
+        "settings": ["coffee_sidebar_tree_xlarge"],
         "row_padding": [8, 8]
     },
     // Sidebar rows
@@ -483,23 +498,23 @@
     {
         "class": "sidebar_heading",
         "color": [255, 242, 207],
-        "font.bold": true,
-        "shadow_color": [148, 149, 151],
-        "shadow_offset": [0, 0]
+        "font.bold": true
     },
     // Sidebar entry
     {
         "class": "sidebar_label",
-        "color": [225, 146, 55],
-        "shadow_offset": [0, 0]
+        "color": [165, 123, 72]
+    },
+    {
+        "class": "sidebar_label",
+        "parents": [{"class": "tree_row", "attributes": ["hover"]}],
+        "color": [255, 242, 207]
     },
     // Sidebar folder entry
     {
         "class": "sidebar_label",
         "parents": [{"class": "tree_row", "attributes": ["expandable"]}],
-        "color": [225, 146, 55],
-        "shadow_color": [0, 0, 0],
-        "shadow_offset": [0, 0]
+        "color": [165, 123, 72]
     },
     {
         "class": "sidebar_label",
@@ -572,62 +587,37 @@
     {
         "class": "disclosure_button_control",
         "content_margin": [0, 6, 18, 7],
-        "layer0.texture": "Theme - Coffee/Dark Roast/group-closed1.png",
+        "layer0.texture": "Theme - Coffee/Dark Roast/group-closed.png",
         "layer0.opacity": 1.0,
         "layer0.inner_margin": 0
     },
     {
         "class": "disclosure_button_control",
         "parents": [{"class": "tree_row", "attributes": ["hover"]}],
-        "layer0.texture": "Theme - Coffee/Dark Roast/group-closed1.png"
+        "layer0.texture": "Theme - Coffee/Dark Roast/group-closed.png"
     },
     {
         "class": "disclosure_button_control",
         "parents": [{"class": "tree_row", "attributes": ["selected"]}],
-        "layer0.texture": "Theme - Coffee/Flatland/group-closed-selected.png"
+        "layer0.texture": "Theme - Coffee/Dark Roast/group-closed-selected.png"
     },
     // Sidebar group open
     {
         "class": "disclosure_button_control",
         "attributes": ["expanded"],
-        "layer0.texture": "Theme - Coffee/Dark Roast/group-open1.png"
+        "layer0.texture": "Theme - Coffee/Dark Roast/group-open.png"
     },
     {
         "class": "disclosure_button_control",
         "attributes": ["expanded"],
         "parents": [{"class": "tree_row", "attributes": ["hover"]}],
-        "layer0.texture": "Theme - Coffee/Dark Roast/group-open1.png"
+        "layer0.texture": "Theme - Coffee/Dark Roast/group-open.png"
     },
     {
         "class": "disclosure_button_control",
         "attributes": ["expanded"],
         "parents": [{"class": "tree_row", "attributes": ["selected"]}],
-        "layer0.texture": "Theme - Coffee/Flatland/group-open-selected.png"
-    },
-
-//
-// STANDARD TEXT BUTTONS
-//
-
-    // Standard buttons (used for Find / Replace panel)
-    {
-        "class": "button_control",
-        "content_margin": [4, 6, 4, 5],
-        "min_size": [69, 0],
-        // Default button state
-        "layer0.texture": "Theme - Coffee/Flatland/btn-large.png",
-        "layer0.opacity": 1.0,
-        "layer0.inner_margin": [6, 6],
-        // Pressed button setup
-        "layer1.texture": "Theme - Coffee/Flatland/btn-large-on.png",
-        "layer1.opacity": 0.0,
-        "layer1.inner_margin": [6, 6]
-    },
-    {
-        // Pressed button state
-        "class": "button_control",
-        "attributes": ["pressed", "hover"],
-        "layer1.opacity": 1.0
+        "layer0.texture": "Theme - Coffee/Dark Roast/group-open-selected.png"
     },
 
 //
@@ -637,7 +627,7 @@
     // Text input field item
     {
         "class": "text_line_control",
-        "layer0.texture": "Theme - Coffee/Flatland/text-field.png",
+        "layer0.texture": "Theme - Coffee/Dark Roast/text-field-background.png",
         "layer0.opacity": 1.0,
         "layer0.inner_margin": [10,10,10,10],
         "content_margin": [4, 5, 15, 4]
@@ -650,26 +640,20 @@
     // Bottom panel background
     {
         "class": "panel_control",
-        "layer0.texture": "Theme - Coffee/Flatland/panel-background.png",
+        "layer0.texture": "Theme - Coffee/Dark Roast/panel-background.png",
         "layer0.inner_margin": [2, 2, 2, 5],
         "layer0.opacity": 1.0
     },
     // Quick panel background
     {
         "class": "overlay_control",
-        "layer0.texture": "Theme - Coffee/Flatland/overlay-bg.png",
+        "layer0.texture": "Theme - Coffee/Dark Roast/quick-panel-overlay-background.png",
         "layer0.inner_margin": [30, 30, 30, 30], // 9grid for the background
         "layer0.opacity": 1.0,
-        "layer1.texture": "Theme - Coffee/Flatland/quick-panel-background.png",
+        "layer1.texture": "Theme - Coffee/Dark Roast/quick-panel-background.png",
         "layer1.inner_margin": [20, 40, 20, 20],
         "layer1.opacity": 1.0,
         "content_margin": [20, 0, 20, 26] // content margin
-    },
-    // Square tabs modify height, move content margin for quick panel
-    {
-        "class": "overlay_control",
-        "settings": ["flatland_square_tabs"],
-        "content_margin": [20, 4, 20, 26]
     },
 
 //
@@ -684,33 +668,33 @@
     },
     {
         "class": "quick_panel_row",
-        "layer0.texture": "Theme - Coffee/Flatland/quick-panel-row.png",
+        "layer0.texture": "Theme - Coffee/Dark Roast/quick-panel-row.png",
         "layer0.inner_margin": [2, 2, 2, 2],
         "layer0.opacity": 1.0
     },
     {
         "class": "quick_panel_row",
         "attributes": ["selected"],
-        "layer0.texture": "Theme - Coffee/Flatland/quick-panel-row-selected.png"
+        "layer0.texture": "Theme - Coffee/Dark Roast/quick-panel-row-selected.png"
     },
     {
         "class": "quick_panel_label",
-        "fg": [144, 146, 147],
-        "match_fg": [36, 150, 233, 255],
-        "selected_fg": [255, 255, 255, 255], //selected foreground
-        "selected_match_fg": [37, 40, 43, 255]
+        "fg": [255, 242, 207], // actions
+        "match_fg": [139, 60, 35, 255], // package
+        "selected_fg": [59, 49, 20, 255], //selected action
+        "selected_match_fg": [220, 146, 55, 255] // selected package
     },
     {
         "class": "quick_panel_path_label",
         "fg": [104, 106, 107, 255],
-        "match_fg": [16, 130, 213, 255],
-        "selected_fg": [215, 215, 215, 255],
-        "selected_match_fg": [57, 60, 63, 255]
+        "match_fg": [255, 242, 207, 255],
+        "selected_fg": [255, 242, 207, 255],
+        "selected_match_fg": [139, 60, 35, 255]
     },
     {
         "class": "quick_panel_score_label",
-        "fg": [43, 151, 237, 255],
-        "selected_fg": [43, 151, 237, 255]
+        "fg": [104, 106, 107, 255],
+        "selected_fg": [255, 242, 207, 255]
     },
 
 //
@@ -719,14 +703,14 @@
 
     {
         "class": "mini_quick_panel_row",
-        "layer0.texture": "Theme - Coffee/Flatland/quick-panel-row.png",
+        "layer0.texture": "Theme - Coffee/Dark Roast/quick-panel-row.png",
         "layer0.inner_margin": [2, 2, 2, 2],
         "layer0.opacity": 1.0
     },
     {
         "class": "mini_quick_panel_row",
         "attributes": ["selected"],
-        "layer0.texture": "Theme - Coffee/Flatland/quick-panel-row-selected.png"
+        "layer0.texture": "Theme - Coffee/Dark Roast/quick-panel-row-selected.png"
     },
 
 //
@@ -739,22 +723,22 @@
     {
         "class": "auto_complete",
         "row_padding": [2, 2],
-        "layer0.tint": [30, 30, 30],
+        "layer0.tint": [15, 10, 0],
         "layer0.opacity": 1.0,
         "dark_content": true
     },
     {
         "class": "auto_complete_label",
-        "fg": [140, 140, 140],
-        "match_fg": [255, 255, 255],
-        "bg": [26, 26, 26],
-        "selected_fg": [255, 255, 255],
-        "selected_match_fg": [255, 255, 255],
-        "selected_bg": [86, 86, 86]
+        "fg": [255, 242, 207],
+        "match_fg": [139, 60, 35],
+        "bg": [15, 10, 0],
+        "selected_fg": [59, 49, 20],
+        "selected_match_fg": [220, 146, 55],
+        "selected_bg": [121, 109, 71]
     },
     {
         "class": "table_row",
-        "layer0.texture": "Theme - Coffee/Flatland/code-completion-row-selected.png",
+        "layer0.texture": "Theme - Coffee/Dark Roast/code-completion-row-selected.png",
         "layer0.opacity": 0.0,
         "layer0.inner_margin": [1, 1]
     },
@@ -765,13 +749,38 @@
     },
 
 //
+// STANDARD TEXT BUTTONS
+//
+
+    // Standard buttons (used for Find / Replace panel)
+    {
+        "class": "button_control",
+        "content_margin": [4, 6, 4, 5],
+        "min_size": [69, 0],
+        // Default button state
+        "layer0.texture": "Theme - Coffee/Dark Roast/btn-large.png",
+        "layer0.opacity": 1.0,
+        "layer0.inner_margin": [6, 6],
+        // Pressed button setup
+        "layer1.texture": "Theme - Coffee/Dark Roast/btn-large-on.png",
+        "layer1.opacity": 0.0,
+        "layer1.inner_margin": [6, 6]
+    },
+    {
+        // Pressed button state
+        "class": "button_control",
+        "attributes": ["pressed", "hover"],
+        "layer1.opacity": 1.0
+    },
+
+//
 // BOTTOM PANEL BUTTONS
 //
 
     // Button group middle
     {
         "class": "icon_button_control",
-        "layer0.texture": "Theme - Coffee/Flatland/btn-group-middle.png",
+        "layer0.texture": "Theme - Coffee/Dark Roast/btn-group-middle.png",
         "layer0.opacity": 1.0,
         "content_margin": [4, 4,4,5]
     },
@@ -779,7 +788,7 @@
     {
         "class": "icon_button_control",
         "attributes": ["left"],
-        "layer0.texture": "Theme - Coffee/Flatland/btn-group-left.png",
+        "layer0.texture": "Theme - Coffee/Dark Roast/btn-group-left.png",
         "layer0.opacity": 1.0,
         "content_margin": [8,4,5,5]
     },
@@ -787,7 +796,7 @@
     {
         "class": "icon_button_control",
         "attributes": ["right"],
-        "layer0.texture": "Theme - Coffee/Flatland/btn-group-right.png",
+        "layer0.texture": "Theme - Coffee/Dark Roast/btn-group-right.png",
         "layer0.opacity": 1.0,
         "content_margin": [4,4,8,5]
     },
@@ -795,7 +804,7 @@
     {
         "class": "icon_button_control",
         "attributes": ["left", "right"],
-        "layer0.texture": "Theme - Coffee/Flatland/btn-single.png",
+        "layer0.texture": "Theme - Coffee/Dark Roast/btn-single.png",
         "layer0.opacity": 1.0,
         "content_margin": [8,4,8,5]
     },
@@ -807,38 +816,38 @@
     // Regex search button
     {
         "class": "icon_regex",
-        "layer0.texture": "Theme - Coffee/Flatland/icon-regex-off.png",
+        "layer0.texture": "Theme - Coffee/Dark Roast/icon-regex-off.png",
         "layer0.opacity": 1.0,
         "content_margin": [8, 8]
     },
     {
         "class": "icon_regex",
         "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
-        "layer0.texture": "Theme - Coffee/Flatland/icon-regex-on.png"
+        "layer0.texture": "Theme - Coffee/Dark Roast/icon-regex-on.png"
     },
     // Case sensitive search button
     {
         "class": "icon_case",
-        "layer0.texture": "Theme - Coffee/Flatland/icon-case-off.png",
+        "layer0.texture": "Theme - Coffee/Dark Roast/icon-case-off.png",
         "layer0.opacity": 1.0,
         "content_margin": [8, 8]
     },
     {
         "class": "icon_case",
         "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
-        "layer0.texture": "Theme - Coffee/Flatland/icon-case-on.png"
+        "layer0.texture": "Theme - Coffee/Dark Roast/icon-case-on.png"
     },
     // Match whole word search button
     {
         "class": "icon_whole_word",
-        "layer0.texture": "Theme - Coffee/Flatland/icon-word-off.png",
+        "layer0.texture": "Theme - Coffee/Dark Roast/icon-word-off.png",
         "layer0.opacity": 1.0,
         "content_margin": [8, 8]
     },
     {
         "class": "icon_whole_word",
         "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
-        "layer0.texture": "Theme - Coffee/Flatland/icon-word-on.png"
+        "layer0.texture": "Theme - Coffee/Dark Roast/icon-word-on.png"
     },
 
 //
@@ -848,26 +857,26 @@
     // Show search context button
     {
         "class": "icon_context",
-        "layer0.texture": "Theme - Coffee/Flatland/icon-context-off.png",
+        "layer0.texture": "Theme - Coffee/Dark Roast/icon-context-off.png",
         "layer0.opacity": 1.0,
         "content_margin": [8, 8]
     },
     {
         "class": "icon_context",
         "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
-        "layer0.texture": "Theme - Coffee/Flatland/icon-context-on.png"
+        "layer0.texture": "Theme - Coffee/Dark Roast/icon-context-on.png"
     },
     // Use search buffer
     {
         "class": "icon_use_buffer",
-        "layer0.texture": "Theme - Coffee/Flatland/icon-buffer-off.png",
+        "layer0.texture": "Theme - Coffee/Dark Roast/icon-buffer-off.png",
         "layer0.opacity": 1.0,
         "content_margin": [8, 8]
     },
     {
         "class": "icon_use_buffer",
         "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
-        "layer0.texture": "Theme - Coffee/Flatland/icon-buffer-on.png"
+        "layer0.texture": "Theme - Coffee/Dark Roast/icon-buffer-on.png"
     },
 
 //
@@ -877,38 +886,38 @@
     // Reverse search direction button
     {
         "class": "icon_reverse",
-        "layer0.texture": "Theme - Coffee/Flatland/icon-reverse-off.png",
+        "layer0.texture": "Theme - Coffee/Dark Roast/icon-reverse-off.png",
         "layer0.opacity": 1.0,
         "content_margin": [8, 8]
     },
     {
         "class": "icon_reverse",
         "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
-        "layer0.texture": "Theme - Coffee/Flatland/icon-reverse-on.png"
+        "layer0.texture": "Theme - Coffee/Dark Roast/icon-reverse-on.png"
     },
     // Search wrap button
     {
         "class": "icon_wrap",
-        "layer0.texture": "Theme - Coffee/Flatland/icon-wrap-off.png",
+        "layer0.texture": "Theme - Coffee/Dark Roast/icon-wrap-off.png",
         "layer0.opacity": 1.0,
         "content_margin": [8, 8]
     },
     {
         "class": "icon_wrap",
         "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
-        "layer0.texture": "Theme - Coffee/Flatland/icon-wrap-on.png"
+        "layer0.texture": "Theme - Coffee/Dark Roast/icon-wrap-on.png"
     },
     // Search in selection button
     {
         "class": "icon_in_selection",
-        "layer0.texture": "Theme - Coffee/Flatland/icon-selection-off.png",
+        "layer0.texture": "Theme - Coffee/Dark Roast/icon-selection-off.png",
         "layer0.opacity": 1.0,
         "content_margin": [8, 8]
     },
     {
         "class": "icon_in_selection",
         "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
-        "layer0.texture": "Theme - Coffee/Flatland/icon-selection-on.png"
+        "layer0.texture": "Theme - Coffee/Dark Roast/icon-selection-on.png"
     },
 
 //
@@ -918,14 +927,14 @@
     // Preserve case button
     {
         "class": "icon_preserve_case",
-        "layer0.texture": "Theme - Coffee/Flatland/icon-preserve-off.png",
+        "layer0.texture": "Theme - Coffee/Dark Roast/icon-preserve-off.png",
         "layer0.opacity": 1.0,
         "content_margin": [8, 8]
     },
     {
         "class": "icon_preserve_case",
         "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
-        "layer0.texture": "Theme - Coffee/Flatland/icon-preserve-on.png"
+        "layer0.texture": "Theme - Coffee/Dark Roast/icon-preserve-on.png"
     },
 
 //
@@ -935,14 +944,14 @@
     // Highlight results button
     {
         "class": "icon_highlight",
-        "layer0.texture": "Theme - Coffee/Flatland/icon-highlight-off.png",
+        "layer0.texture": "Theme - Coffee/Dark Roast/icon-highlight-off.png",
         "layer0.opacity": 1.0,
         "content_margin": [8, 8]
     },
     {
         "class": "icon_highlight",
         "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
-        "layer0.texture": "Theme - Coffee/Flatland/icon-highlight-on.png"
+        "layer0.texture": "Theme - Coffee/Dark Roast/icon-highlight-on.png"
     }
 
 ]
