@@ -15,7 +15,7 @@
         "layer0.texture": "Theme - Coffee/Dark Roast/tabset-background.png",
         "layer0.inner_margin": [10, 0, 10, 8],
         "layer0.opacity": 1.0,
-        "content_margin": [0, 4, 0, -1],
+        "content_margin": [0, 4, 0, 0],
         "tab_overlap": 6,
         "tab_width": 160,
         "tab_min_width": 48,
