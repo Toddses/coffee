@@ -4,13 +4,13 @@
 
 Coffee is a minimalist theme and color scheme with an earthy flair for Sublime Text / Textmate. It is largely based on the excellent theme [Flatland](https://github.com/thinkpixellab/flatland), which is in turn based on [Soda](https://github.com/buymeasoda/soda-theme). Two great places to start if you're developing your own themes.
 
-Version 1.0 released June 30, 2014.
+Version 1.1 released March 8, 3015.
 
 Project site: [https://github.com/toddses/coffee/](https://github.com/toddses/coffee/)
 
 ## Dark Roast
 
-Available now is the Dark Roast version with a Light Roast coming soon. Here's a preview:
+Available now is the Dark Roast version. Here's a preview:
 
 ![Coffee Dark Roast Preview](https://raw.github.com/toddses/coffee/master/screenshot.png)
 
@@ -52,6 +52,10 @@ Activate the theme by modifying your user preferences to include the following:
     }
 
 If you need help locating your user preferences file, you can find it selecting `Preferences > Settings - User`.
+
+## File Icons
+
+Added in v1.1 are File Icons. These come from the Seti UI theme. I figured why reinvent the wheel when there's a great set already! Thanks to [ctf0](https://github.com/ctf0/Seti_ST3) for the Sublime Text port, and to [jesseweed](https://github.com/jesseweed/seti-ui) for the original Atom theme. Thanks to both for making their themes open source.
 
 ## License
 

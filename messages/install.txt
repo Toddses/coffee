@@ -1,0 +1,13 @@
+# Install
+---------------
+
+Active the theme by modifying your user preferences file. From the Sublime Text menu: `Preferences -> Settings - User`.
+
+```
+{
+    "theme": "Coffee Dark Roast.sublime-theme",
+    "color_scheme": "Packages/Theme - Coffee/Coffee Dark Roast.tmTheme"
+}
+```
+
+See the readme for more information.
