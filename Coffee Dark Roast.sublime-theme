@@ -77,7 +77,7 @@
     {
         "class": "tab_label",
         "parents": [{"class": "tab_control", "attributes": ["hover"]}],
-        "fg": [255, 242, 207], 
+        "fg": [255, 242, 207],
     },
     {
         "class": "tab_label",
@@ -626,7 +626,7 @@
 //
     {
         "class": "icon_file_type",
-        "content_margin": [0,0]
+        "content_margin": [8,8]
     },
     {
         "class": "icon_folder",
