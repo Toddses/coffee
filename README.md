@@ -4,7 +4,7 @@
 
 Coffee is a minimalist theme and color scheme with an earthy flair for Sublime Text / Textmate. It is largely based on the excellent theme [Flatland](https://github.com/thinkpixellab/flatland), which is in turn based on [Soda](https://github.com/buymeasoda/soda-theme). Two great places to start if you're developing your own themes.
 
-Version 1.5 released March 29, 2017.
+Version 1.6 released March 29, 2017.
 
 Project site: [https://github.com/toddses/coffee/](https://github.com/toddses/coffee/)
 
