@@ -1,0 +1,3 @@
+# v1.6.1 (October 16, 2018)
+
+* Adjusts horizontal scroll puck color to match vertical, so it is actually visible.
