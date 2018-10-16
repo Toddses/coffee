@@ -970,5 +970,13 @@
         "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
         "layer0.texture": "Theme - Coffee/Dark Roast/icon-highlight-on.png"
     }
+//
+// TITLE BAR (MACOS ONLY)
+//
+    {
+      "class": "title_bar",
+      "bg": [15, 11, 4],
+      "fg": [164, 157, 136]
+    },
 
 ]
