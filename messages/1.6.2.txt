@@ -1,0 +1,3 @@
+# v1.6.2 (October 31, 2018)
+
+* Adjusts SCSS file icon to also accept alternate source type of source.css.scss.
